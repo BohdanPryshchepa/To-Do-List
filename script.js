@@ -15,3 +15,8 @@ function addTask() {
 function removeTask(task) {
     task.parentNode.remove();
 }
+function handleKeyPress(event) {
+  if (event.keyCode === 13) {
+     addTask();
+    }
+ }
