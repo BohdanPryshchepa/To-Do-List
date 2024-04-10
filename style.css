@@ -1,0 +1,26 @@
+.container{
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+
+}
+input[type='text']{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.delete{
+    cursor: pointer;
+}
